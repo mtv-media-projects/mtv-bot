@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-    bot, err := tgbotapi.NewBotAPI("6931978886:AAE1igtv4sJCY5Y1hjT3DyvJzw4SLzYma0Y")
+    bot, err := tgbotapi.NewBotAPI("Enter your token here")
     if err != nil {
         log.Fatal(err)
     }
